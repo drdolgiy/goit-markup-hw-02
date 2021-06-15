@@ -57,7 +57,7 @@ body {
 }
 
 /* Оформление раздела Hero */
-/* .main-head {
+/* .hero-head {
   font-family: inherit;
   font-style: normal;
   font-weight: 900;
@@ -70,7 +70,7 @@ body {
 } */
 
 /* Оформление кнопки "Заказать услугу" */
-/* .main-button {
+/* .hero-button {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
