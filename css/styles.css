@@ -28,7 +28,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: inherit;
   text-decoration: none;
@@ -39,13 +39,13 @@ body {
   color: #2196f3;
 }
 
-/* Оформление контактов */
+/* Оформление меню контактов */
 .menu-contact {
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
@@ -54,4 +54,60 @@ body {
 .menu-contact:hover,
 .menu-contact:focus {
   color: #2196f3;
+}
+
+/* Оформление раздела Hero */
+/* .main-head {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+} */
+
+/* Оформление кнопки "Заказать услугу" */
+/* .main-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18.7;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+} */
+
+/* Оформление раздела "Особенности компании */
+.features {
+  list-style: none;
+}
+
+.features-head {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.features-text {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
