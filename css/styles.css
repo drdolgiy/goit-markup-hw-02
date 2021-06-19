@@ -1,5 +1,9 @@
 :root {
   --accent-color: #2196f3;
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --third-color: #ffffff;
+  --main-font: "Roboto", sans-serif;
 }
 
 .list {
@@ -8,11 +12,12 @@
 
 .link {
   text-decoration: none;
+  color: var(--primary-color);
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
+  font-family: var(--main-font);
+  color: var(--primary-color);
 }
 /* ----------------------Оформление логотипа -----------------------*/
 .logo {
@@ -34,11 +39,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-color);
 }
 
-.menu-nav:hover,
-.menu-nav:focus {
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+  color: var(--accent-color);
+}
+.menu-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -48,7 +56,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 .menu-contact:hover,
@@ -64,7 +72,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: #ffffff; */
+  background-color: #2f303a;
+  color: var(--third-color);
 }
 
 /*-------------------- Оформление кнопки "Заказать услугу" -----------------*/
@@ -76,7 +85,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--third-color);
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -96,7 +105,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 /* --------------- Оформление раздела "Чем занимается компания" ---------------------------- */
@@ -131,7 +140,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 /* --------------- Оформление футера ---------------------------- */
@@ -141,21 +150,29 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  /* color: #ffffff; */
+  color: var(--third-color);
 }
 
 .address-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: #FFFFFF; */
+  color: var(--third-color);
 }
 
 .contact-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address {
+  font-style: inherit;
+}
+
+.footer-color {
+  background-color: #2f303a;
 }
 
 /* ------------------------ Портфолио --------------------------------- */
@@ -172,7 +189,7 @@ body {
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--third-color);
 }
 
 /* --------------- Оформление галерея работ ---------------------------- */
@@ -181,12 +198,12 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--primary-color);
 }
 
 .worklist-desc {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
