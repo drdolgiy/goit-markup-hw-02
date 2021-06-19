@@ -92,6 +92,11 @@ body {
   cursor: pointer;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background: #188ce8;
+}
+
 /*---------------- Оформление раздела "Особенности компании ---------------------*/
 .features-head {
   font-weight: 700;
